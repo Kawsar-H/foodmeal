@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-size: 20px;
+    line-height: 50px;
+}
+.head-line{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+#food{
+    min-height: 100px;
+}
+.food-area{
+    min-width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    background: yellowgreen ;
+    text-align: center;
+}
+.find-button{
+    background:red;
+    color: white;
+    padding: 10px;
+}
+.all-food-search{
+    padding: 10px;
+    border: 2px solid red;
+
+}
+.collection-area{
+    margin-top: 20px;
+}
+
+#food{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+
+
+#food{
+    margin: 5px 0;
+    
+}
+.food-item{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 3px 0;
+}
+.food-img img {
+    width: 100%;
+    display: block;
+}
+.food-name{
+    padding: 30px;
+    
+}
+.food-name h4 {
+    font-size: 50px;
+}
+.details-button{
+    text-decoration: none;
+    
+
+    
+}
+.details{
+    margin: 10px;
+}
+.foods-details{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    color: white;
+    overflow-y: scroll;
+    width: 50%;
+    height: 100%;
+    padding: 2px 0;
+    transform: translate(-50% , -50%);
+    background: green;
+    display: none;
+
+}
+.food-details-img img{
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    border-radius: 3px;
+    display: block;
+}
+.foods-details p{
+    padding: 1px;
+}
+.ingredents{
+    padding: 1px;
+
+}
+.showDetails{
+    display: block;
+}
+
