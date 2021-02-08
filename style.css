@@ -4,11 +4,7 @@
     
 }
 
-body{
-    font-size: 20px;
-    line-height: 50px;
-    background: yellowgreen ;
-}
+
 .head-line{
     font-size: 30px;
     margin-bottom: 2px;
@@ -24,13 +20,15 @@ body{
     text-align: center;
 }
 .find-button{
-    background:red;
+    background: red;
+    border: 2px solid red;
     color: white;
     padding: 10px;
 }
 .all-food-search{
     padding: 10px;
-    border: 2px solid red;
+    
+    width: 300px;
 
 }
 .collection-area{
@@ -38,16 +36,21 @@ body{
 }
 
 #food{
+    
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center
 }
 
 
 
 
 #food{
-    margin: 5px 0;
+    margin: 25px 0;
     
 }
 .food-item{
@@ -62,52 +65,61 @@ body{
     display: block;
 }
 .food-name{
-    padding: 30px;
+    padding: 20px;
     
 }
 .food-name h4 {
-    font-size: 50px;
+    font-size: 30px;
+    
 }
 .details-button{
     text-decoration: none;
+    background: chocolate;
+    color: white;
+    width: 180px;
+    height: auto;
+    padding: 5px;
+   
     
 
     
 }
 .details{
     margin: 10px;
+    
+    width: 380px;
+    margin: 0 auto;
+    box-shadow:10px 10px 8px 10px #888888;
+  
 }
-.foods-details{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    border-radius: 20px;
-    color: white;
-    overflow-y: scroll;
-    width: 50%;
-    height: 100%;
-    padding: 2px 0;
-    transform: translate(-50% , -50%);
-    background: green;
-    display: none;
 
-}
+
 .food-details-img img{
+   
     margin-top: 20px;
     margin: 0 auto;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 280px;
     border-radius: 3px;
     display: block;
+    
 }
-.foods-details p{
-    padding: 1px;
-}
+
 .ingredents{
-    padding: 1px;
+   
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 30px;
+    
+
 
 }
 .showDetails{
     display: block;
 }
+.foods-titles{
+    margin-top: 30px;
+    }
+
+
 

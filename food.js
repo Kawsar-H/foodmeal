@@ -1,10 +1,10 @@
 const buttonFind = document.getElementById('button-find');
+buttonFind.addEventListener('click' , foodEventList);
 const foodList = document.getElementById('food');
+foodList.addEventListener('click', foodDetailsList);
 const foodDetails = document.querySelector('.details');
 console.log(foodDetails);
 
-buttonFind.addEventListener('click' , foodEventList);
-foodList.addEventListener('click', foodDetailsList);
 
 
 function foodEventList(){
@@ -21,7 +21,7 @@ function foodEventList(){
                     <img src="${food.strMealThumb}" alt="">
                 </div>
                 <div class="food-name">
-                    <h4>${food.strMeal}</h4>
+                    <h2>${food.strMeal}</h2>
                     <a href="#" class="details-button">Details</a>
                 </div>
             </div>
@@ -58,8 +58,20 @@ function foodData(food){
                     </div>
                     <h2 class="foods-titles">${food.strMeal}</h2>
                     <div class="ingredents">
-                        <h4>Ingredients</h4>
-                        <p>${food.strInstructions}</p>
+                        <h2>Ingredients</h2>
+                        
+                        <ul>
+                        <li>${food.strIngredient1}</li>
+                        <li>${food.strIngredient2}</li>
+                        <li>${food.strIngredient3}</li>
+                        <li>${food.strIngredient4}</li>
+                        <li>${food.strIngredient5}</li>
+                        <li>${food.strIngredient6}</li>
+                        <li>${food.strIngredient7}</li>
+                        <li>${food.strIngredient8}</li>
+                        <li>${food.strIngredient9}</li>
+                        <li>${food.strIngredient10}</li>
+                        </ul>
                         
                     </div>
     
